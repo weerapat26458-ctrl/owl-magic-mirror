@@ -8,10 +8,10 @@ const supabase = createClient(
 )
 
 const COSTUMES = [
-  { id: 'chef',     label: '👨‍🍳 เชฟ',      color: 'from-yellow-500 to-orange-500' },
-  { id: 'nurse',    label: '👩‍⚕️ พยาบาล',   color: 'from-blue-400 to-cyan-500' },
-  { id: 'engineer', label: '👷 วิศวกร',    color: 'from-gray-500 to-gray-700' },
-  { id: 'pilot',    label: '✈️ นักบิน',    color: 'from-sky-500 to-indigo-600' },
+  { id: 'chef',     label: '🎮 Esport',     color: 'from-purple-500 to-pink-500' },
+  { id: 'nurse',    label: '👨‍⚕️ Doctor',    color: 'from-blue-400 to-cyan-500' },
+  { id: 'engineer', label: '💻 Programmer', color: 'from-green-500 to-emerald-600' },
+  { id: 'pilot',    label: '🚀 Astronaut',  color: 'from-gray-500 to-slate-700' },
 ]
 
 type Step = 'select' | 'countdown' | 'processing' | 'done'
